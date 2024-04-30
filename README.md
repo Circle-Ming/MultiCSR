@@ -20,7 +20,7 @@ This repository contains the code for our paper [Large Language Models can Contr
 We propose a multi-level contrastive sentence representation learning framework that decomposes the process of prompting LLMs to generate a corpus for training base sentence embedding models into three stages (i.e., sentence generation, sentence pair construction, in-batch training) and refines the generated content at these three distinct stages, ensuring only high-quality sentence pairs are utilized to train a base contrastive learning model, such as SimCSE. We firstly utilize the randomly sampled sentences from Wikipedia or premises from NLI (same as SimCSE) as the unlabeled sentences, then we will prompt LLMs to generate the corresponding `entailment` and `contradiction` hypotheses which will be used as the positive and hard negative samples of the given sentence. In stage 2, we will prompt LLMs to measure the similarity of each sentence pair, and perform self-curation which will filter out "low-quality" sentence pairs with a pre-defined strategy. During the in-batch training in stage 3, we utilize a pre-trained sentence embedding model to mask out false negatives which are semantically similar with the premise but are incorrectly utilized as negative samples.
 
 <!-- ![](figure/pipeline.png) -->
-<img src="figure/pipeline.png" width="600px">
+<img src="figure/pipeline.png" width="700px">
 
 ## MultiCSR
 
