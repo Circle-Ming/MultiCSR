@@ -118,11 +118,11 @@ An example command to run our scripts is:
 bash run.sh -m bert-base-uncased -d nli -e 3 -b 128 -r 5e-5 -l 32 -y 42 -g 1 -t 25 -n princeton-nlp/unsup-simcse-bert-base-uncased -p 0.95
 ```
 
-<!-- ## Citation
+## Citation
 
-If you find our code useful and use MultiCSR in your work, please cite our paper:
+If you find our code useful and use MultiCSR in your work, please cite our paper.
 
-```bibtex
+<!-- ```bibtex
 @inproceedings{xxxxx,
    title={Large Language Models can Contrastively Refine their Generation for Better Sentence Representation Learning},
    author={Wang, Huiming and Li, Zhaodonghui and Cheng, Liying and Soh, De Wen Soh and Bing, Lidong},
