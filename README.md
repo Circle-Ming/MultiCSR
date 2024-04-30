@@ -73,7 +73,7 @@ You can indicate the data resources with the `--source` argument. For the argume
 ### Stage 2 - Self-Curation
 In this stage, we want to filter some low-quality sentence pairs using the similarity scores generated in stage 1, as shown in the following figure.
 
-![](figure/filter.png){:height="50%" width="50%"}
+![](figure/filter.png =100x20)
 
 You can get a light but high-quality corpus by running the following command:
 
