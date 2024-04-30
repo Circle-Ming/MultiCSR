@@ -27,11 +27,11 @@ We propose a multi-level contrastive sentence representation learning framework 
 In this section, we describe how to prompt LLMs to generate entailment and contradiction hypotheses and perform self-curation, and how to train a base model such as SimCSE and reduce the impact of false negatives with a pre-trained model.
 
 ### Requirements
-As prompting LLMs for generation and training a base model has different requirements, we suggest to install different dependencies for them.
+As prompting LLMs for generation and training a base model has different requirements, we suggest installing different dependencies for them.
 
 First, when prompting LLMs for generation, try to make sure that `transformers` is updated and supports `AutoModel` and `AutoTokenizer`.
 
-Second, we will try to maintain the same dependencies with the base model. In this repo, we implement our method over SimCSE. Following the instructions from [their official repo](https://github.com/princeton-nlp/SimCSE/tree/main), we suggest to install the correct `1.7.1` PyTorch version corresponding to your platforms/CUDA versions. And PyTorch version higher than `1.7.1` should also work. For example, if you use Linux and **CUDA11** ([how to check CUDA version](https://varhowto.com/check-cuda-version/)), install the corresponding PyTorch by the following command, 
+Second, we will try to maintain the same dependencies with the base model. In this repo, we implement our method over SimCSE. Following the instructions from [their official repo](https://github.com/princeton-nlp/SimCSE/tree/main), we suggest installing the correct `1.7.1` PyTorch version corresponding to your platforms/CUDA versions. And PyTorch version higher than `1.7.1` should also work. For example, if you use Linux and **CUDA11** ([how to check CUDA version](https://varhowto.com/check-cuda-version/)), install the corresponding PyTorch by the following command, 
 
 ```bash
 pip install torch==1.7.1+cu110 -f https://download.pytorch.org/whl/torch_stable.html
