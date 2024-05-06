@@ -60,6 +60,8 @@ cd SentEval/data/downstream/
 bash download_dataset.sh
 ```
 
+We also find that automatically-installed numpy may cause some issues during the evaluation with SentEval. In this case, we find that downgrading numpy to 1.23.1 solves the problem.
+
 ### Unlabeled Sentences
 
 To make a fair comparison, we use the same data resources from SimCSE, which are 1 million sentences from English Wikipedia, and NLI datasets (SNLI and MNLI). You can run `data/download_wiki.sh` and `data/download_nli.sh` to download the two datasets. It is also important to note that, for the NLI datasets, we will only use the premises and skip the human-annotated hypotheses.
