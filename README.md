@@ -26,6 +26,8 @@ We propose a multi-level contrastive sentence representation learning framework 
 
 In this section, we describe how to prompt LLMs to generate entailment and contradiction hypotheses and perform self-curation, and how to train a base model such as SimCSE and reduce the impact of false negatives with a pre-trained model.
 
+(When using a closed-source LLM like ChatGPT, we will directly prompt it for generation and utilize only the stage 2&3 to improve the quality of training corpus. So far, this repository mainly contains source code for stage 2&3, and we are still working on cleaning up the stage 1 code.)
+
 ### Requirements
 As prompting LLMs for generation and training a base model has different requirements, we suggest installing different dependencies for them.
 
