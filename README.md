@@ -126,11 +126,16 @@ bash run.sh -m bert-base-uncased -d nli -e 3 -b 128 -r 5e-5 -l 32 -y 42 -g 1 -t 
 
 If you find our code useful and use MultiCSR in your work, please cite our paper.
 
-<!-- ```bibtex
-@inproceedings{xxxxx,
-   title={Large Language Models can Contrastively Refine their Generation for Better Sentence Representation Learning},
-   author={Wang, Huiming and Li, Zhaodonghui and Cheng, Liying and Soh, De Wen Soh and Bing, Lidong},
-   booktitle={North American Chapter of the Association for Computational Linguistics (NAACL)},
-   year={2024}
-}
-``` -->
+@inproceedings{wang-etal-2024-large-language,
+    title = "Large Language Models can Contrastively Refine their Generation for Better Sentence Representation Learning",
+    author = "Wang, Huiming  and
+      Li, Zhaodonghui  and
+      Cheng, Liying  and
+      Soh, De Wen  and
+      Bing, Lidong",
+    booktitle = "Proceedings of North American Chapter of the Association for Computational Linguistics (NAACL)",
+    year = "2024",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.436",
+    }
+
