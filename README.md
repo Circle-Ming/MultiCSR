@@ -126,6 +126,7 @@ bash run.sh -m bert-base-uncased -d nli -e 3 -b 128 -r 5e-5 -l 32 -y 42 -g 1 -t 
 
 If you find our code useful and use MultiCSR in your work, please cite our paper.
 
+```bibtex
 @inproceedings{wang-etal-2024-large-language,
     title = "Large Language Models can Contrastively Refine their Generation for Better Sentence Representation Learning",
     author = "Wang, Huiming  and
@@ -138,4 +139,4 @@ If you find our code useful and use MultiCSR in your work, please cite our paper
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.naacl-long.436",
     }
-
+```
